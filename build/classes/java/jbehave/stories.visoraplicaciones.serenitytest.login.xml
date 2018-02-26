@@ -1,0 +1,25 @@
+<story path="stories/visoraplicaciones/serenitytest/login.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="As a">user</inOrderTo>
+  <asA keyword="I want to">perform an action</asA>
+  <iWantTo keyword="So that">I can achieve a business goal</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="logueo en aplicacion Sahi">
+<step outcome="successful">Given como usuario ingreso a la pagina de sahi</step>
+<step outcome="successful">When ingreso las credenciales:<parameter><parameters>
+<names><name>usuario</name><name>contrasena</name><name>corejava</name><name>ruby</name><name>python</name></names>
+<values><value>test</value><value>secret</value><value>2</value><value>5</value><value>2</value></values>
+</parameters>
+</parameter></step>
+<step outcome="successful">Then ingreso a la pagina prinacipal del sitio</step>
+<step outcome="pending" keyword="PENDING">When ingreso las books:
+|corejava|ruby|python|
+|2|5|2|</step>
+<pendingMethod>@When(&quot;ingreso las books:\r\n|corejava|ruby|python|\r\n|2|5|2|&quot;)
+@Pending
+public void whenIngresoLasBookscorejavarubypython252() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+</story>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="java.lang.Object" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-02-26T15:22:19" hostname="LAPTOP-LAFQ684S" time="4.017">
+  <properties/>
+  <testcase name="BeforeStories" classname="java.lang.Object" time="0.015"/>
+  <testcase name="AfterStories" classname="java.lang.Object" time="3.252"/>
+  <system-out><![CDATA[
+
+]]></system-out>
+  <system-err><![CDATA[[pool-2-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for logueo en aplicacion Sahi to file C:\Users\Diana Meza\Downloads\Prueba Sahi\target\site\serenity\f3718bc337fd72293fafbeb0433354fe.json (using temp file C:\Users\Diana Meza\Downloads\Prueba Sahi\target\site\serenity\f3718bc337fd72293fafbeb0433354fe.jsonbc2c34cf-d6cc-4782-addd-01feb341fa0c)
+[pool-2-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Login:logueo en aplicacion Sahi in f3718bc337fd72293fafbeb0433354fe.html in directory target\site\serenity  
+log4j:WARN No appenders could be found for logger (freemarker.cache).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+</testsuite>

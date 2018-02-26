@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Login" skipped="0" tests="1" time="0.43" timestamp="2018-02-57 10:22:20"><testcase name="logueo en aplicacion Sahi"><error message="Could not instantiate class org.openqa.selenium.chrome.ChromeDriver" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</error><system-err>Could not instantiate class org.openqa.selenium.chrome.ChromeDriver&#13;
+visoraplicaciones.serenitytest.steps.LoginSteps.ingresar(LoginSteps.java:19)&#13;
+visoraplicaciones.serenitytest.definitions.LoginDefinitions.ingresarSitio(LoginDefinitions.java:19)&#13;
+</system-err></testcase></testsuite>

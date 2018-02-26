@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="login.story" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-02-26T15:22:20" hostname="LAPTOP-LAFQ684S" time="0.517">
+  <properties/>
+  <testcase name="classMethod" classname="login.story" time="0.517"/>
+  <system-out><![CDATA[Narrative:
+As a user
+I want to perform an action
+So that I can achieve a business goal
+Scenario: logueo en aplicacion Sahi
+]]></system-out>
+  <system-err><![CDATA[[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: logueo en aplicacion Sahi
+-------------------------------------------------------------------(stories/visoraplicaciones/serenitytest/login.story;logueo en aplicacion Sahi)
+]]></system-err>
+</testsuite>

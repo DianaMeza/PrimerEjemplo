@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="visoraplicaciones.serenitytest.Login" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="LAPTOP-LAFQ684S" time="0.0">
+  <properties/>
+  <system-out><![CDATA[Processing system properties {}
+Using controls EmbedderControls[batch=false,skip=false,generateViewAfterStories=true,ignoreFailureInStories=false,ignoreFailureInView=true,verboseFailures=false,verboseFiltering=false,storyTimeouts=300,threads=1,failOnStoryTimeout=false]
+
+(BeforeStories)
+Running story stories/visoraplicaciones/serenitytest/login.story
+
+(stories/visoraplicaciones/serenitytest/login.story)
+Using timeout for story login.story of 300 secs.
+When ingreso las books:
+|corejava|ruby|python|
+|2|5|2| (PENDING)
+@When("ingreso las books:\r\n|corejava|ruby|python|\r\n|2|5|2|")
+@Pending
+public void whenIngresoLasBookscorejavarubypython252() {
+  // PENDING
+}
+
+
+
+
+(AfterStories)
+Generating reports view to 'C:\Users\Diana Meza\Downloads\Prueba Sahi\build\classes\java\jbehave' using formats '[stats, console, html, xml, serenityreporter, junitscenarioreporter]' and view properties '{decorateNonHtml=true}'
+Reports view generated with 2 stories (of which 1 pending) containing 1 scenarios (of which 1 pending)
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+[Test worker] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=C:\chromedriver.exe
+[Test worker] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.console.colors=true
+[Test worker] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.switches=--incognito;--disable-download-notification
+[Test worker] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Atenticacion visor aplicaciones
+[Test worker] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.take.screenshots=FOR_EACH_ACTION
+[Test worker] INFO net.serenitybdd.core.Serenity - ?[96m
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+-------------------------------------------------------------------------------------
+?[0m
+[pool-1-thread-1] INFO net.serenitybdd.jbehave.embedders.monitors.ReportingEmbedderMonitor - 1825893733story running with path stories/visoraplicaciones/serenitytest/login.story
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - Test Suite Started: Login
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - ?[96mTEST PENDING?[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - ?[91m
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: logueo en aplicacion Sahi
+---------------------------------------------------------------------?[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - Could not instantiate class org.openqa.selenium.chrome.ChromeDriver
+]]></system-err>
+</testsuite>
